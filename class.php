@@ -48,7 +48,7 @@ class Car
         return $this->nbWheels;
     }
 
-    public function setCurrentSpeed(int $currentSpeed)
+    public function setCurrentSpeed(int $currentSpeed): void
     {
         if ($currentSpeed >= 0) {
             $this->currentSpeed = $currentSpeed;
